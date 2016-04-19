@@ -4,7 +4,6 @@ email: curiositymotive@gmail.com
 description: > # Curiosity Motive needs a description.
 url: "http://curiositymotive.github.io/" # the base hostname & protocol for your site
 enable_retina: true
-exclude: ["css/main.scss"]
 nav_list:
   Home : ['Home', '/', 'fa-home']
   Home_Alt : ['Home Alt', '/home-alt', 'fa-home']
