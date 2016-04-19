@@ -1,9 +1,7 @@
 # Site settings
 title: Curiosity Motive
 email: curiositymotive@gmail.com
-description: > # Writer Theme is a responsive template
- focussed on typography, minimal design and
-  quality photography built using the Jekyll platform.
+description: > # Curiosity Motive needs a description.
 url: "" # the base hostname & protocol for your site
 enable_retina: true
 permalink: :title
@@ -14,10 +12,10 @@ nav_list:
   About : ['About', '/about', 'fa-anchor']
   Contact : ['Contact', '/contact', 'fa-plane']
   Author : ['Author', '/author/michelle', 'fa-user']
-single_footer: '<p>The writer community loves your content. Writer &copy; 2015 <a href="/">latest posts</a></p>'
+single_footer: '<p>&copy; 2016 <a href="/">latest posts</a></p>'
 footer_links:
     About: ['About', '/about']
-    Writer: ['Writer 2015', '/about']
+    Writer: ['CM', '/about']
 
 
 # Build settings
