@@ -2,9 +2,9 @@
 title: Curiosity Motive
 email: curiositymotive@gmail.com
 description: > # Curiosity Motive needs a description.
-url: "" # the base hostname & protocol for your site
+url: "http://curiositymotive.github.io/" # the base hostname & protocol for your site
 enable_retina: true
-permalink: :title
+exclude: ["css/main.scss"]
 nav_list:
   Home : ['Home', '/', 'fa-home']
   Home_Alt : ['Home Alt', '/home-alt', 'fa-home']
