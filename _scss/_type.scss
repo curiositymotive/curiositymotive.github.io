@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Droid+Serif:400,400italic,700);
+
+$sans: "Source Sans Pro", Helvetica, Arial, sans-serif;
+$serif: "Droid Serif", serif;
+
+$text-color: #333337;
+$light-grey: #b6b6b6;
+$light-blue: #4761e2;
+
+$base-color: $light-blue;
+
+body {
+  line-height: 1.65;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  color: $text-color;
+  font-family: $serif;
+}
+
+// Text rendering for titles only to insure no performance hit
+.post-preview,
+.sidebar,
+.post-favorite,
+.favorites {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  margin-bottom: 30px;
+  @include font-size(18);
+  @include breakpoint(sm) {
+    @include font-size(20);
+  }
+
+  @include breakpoint(md) {
+    @include font-size(21);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  border-bottom: solid 1px #fafafa;
+  &:hover,
+  &:active {
+    color: #4761e2;
+    transition: all 400ms;
+  }
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  font-family: $sans;
+}
+
+h1 {
+  @include font-size(38);
+}
+
+h2 {
+  @include font-size(32);
+  &.favorites {
+    padding: 10px 0;
+    color: #b3b3b7;
+    text-transform: uppercase;
+    letter-spacing: 2pt;
+    border-bottom: solid 1px #dedede;
+    border-top: solid 1px #dedede;
+    @include font-size(12);
+  }
+}
+
+h3 {
+  @include font-size(26);
+}
+
+b {
+  font-weight: 700;
+}
+
+i {
+  font-style: italic;
+}
+
+ul,
+ol {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  @include font-size(16);
+  li {
+    margin: 5px 0;
+  }
+}

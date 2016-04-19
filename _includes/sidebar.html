@@ -10,9 +10,11 @@
 
     <div class="site-info">
         <div class="primary-info">
-            <h1>{{ page.title }}</h1>
+            <img class="sitelogo" src="{{"/img/" | append: page.logo | prepend: site.baseurl }}.png" />
+            <!--
+            <h1>{{ page.logo }}</h1>
             <p>{{ page.desc }}</p>
-
+            -->
         </div>
 
         {% if page.include_cta_btn == true %}

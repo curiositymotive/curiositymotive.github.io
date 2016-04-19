@@ -1,0 +1,8 @@
+.category-sidebar {
+  .site-info {
+    padding-top: 160px;
+    @include breakpoint(sm) {
+      padding-top: 260px;
+    }
+  }
+}
