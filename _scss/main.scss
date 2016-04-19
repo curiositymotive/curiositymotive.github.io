@@ -1,5 +1,28 @@
+@charset "UTF-8";
 
-@charset "utf-8";
+// vendor
+@import "vendor/bootstrap.min";
+@import "vendor/font-awesome.min";
 
-// Import partials from `sass_dir` (defaults to `_sass`)
+@import "mixins";
+@import "type";
+@import "animate";
+@import "partials/bootstrap-components";
+
+// includes
 @import "global";
+@import "partials/shared";
+@import "partials/menu";
+@import "partials/sidebar";
+
+// pages
+@import "partials/main-content";
+@import "partials/single";
+@import "partials/favorites";
+@import "partials/category";
+@import "partials/contact";
+@import "partials/author";
+@import "partials/alt-home";
+@import "partials/page-404";
+
+@import "nojs";
