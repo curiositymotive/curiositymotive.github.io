@@ -50,7 +50,7 @@ gulp.task('browser-sync', ['sass', 'js', 'jekyll-build'], function() {
              onError: browserSync.notify
          }))
          .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
-         .pipe(gulp.dest('_site/css'))
+         .pipe(gulp.dest('_site/css')).pipe(gulp.dest('css'))
          .pipe(browserSync.reload({stream:true}))
  });
 
@@ -58,12 +58,12 @@ gulp.task('browser-sync', ['sass', 'js', 'jekyll-build'], function() {
  * Concatenate & Minify JS
  */
  gulp.task('js', function() {
-     return gulp.src(['js/*.js', '!js/sticky_header.js'])
+     return gulp.src(['js/*.js'])
          .pipe(concat('main.min.js'))
-         //.pipe(gulp.dest('_site/js'))
-         //.pipe(rename('main.min.js'))
+         .pipe(gulp.dest('_site/js'))
+         .pipe(rename('main.min.js'))
          .pipe(uglify())
-         .pipe(gulp.dest('_site/js'));
+         .pipe(gulp.dest('_site/js')).pipe(gulp.dest('js'));
  });
 
 /**
