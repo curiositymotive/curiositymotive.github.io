@@ -7814,6 +7814,10 @@ footer .read-another-container {
       line-height: 22px;
       line-height: 2.2rem; } }
 
+.category_header {
+  margin-bottom: 50px;
+  padding-bottom: 25px; }
+
 .category-sidebar .site-info {
   padding-top: 160px; }
   @media (min-width: 768px) {
