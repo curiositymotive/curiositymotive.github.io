@@ -22,10 +22,14 @@ layout: with-sidebar
         </div>
 
 
-        {% if post.show_avatar == true %}
-        <div class=" col-xs-2  no-gutter">
-            <img src="{{ site.baseurl}}/img/{{ post.author_avatar }}.jpg" class="user-icon user-1" alt="user-image">
-        </div>
+        {% if post.square_related %}
+          <div class=" col-xs-2  no-gutter">
+              <img src="{{ site.baseurl}}/img/{{ post.square_related }}.jpg" class="user-icon user-1" alt="user-image">
+          </div>
+        {% else %}
+          <div class=" col-xs-2  no-gutter">
+              <img src="{{ site.baseurl}}/img/{{ post.feature_image }}.jpg" class="user-icon user-1" alt="user-image">
+          </div>
         {% endif %}
     </article>
     {% endfor %}
