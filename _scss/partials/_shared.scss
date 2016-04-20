@@ -1,8 +1,13 @@
+.metaicon {
+  margin-right: 5px;
+  color: $med-grey;
+}
+
 .meta {
   color: $light-grey;
-  @include font-size(14);
+  @include font-size(12);
   @include breakpoint(md) {
-    @include font-size(16);
+    @include font-size(14);
   }
 
   a {
