@@ -16,6 +16,8 @@ single_footer: '<p>&copy; 2016 <a href="/">latest posts</a></p>'
 footer_links:
     About: ['About', '/about']
     Writer: ['CM', '/about']
+gems:
+  - jekyll-gist
 
 
 # Build settings
