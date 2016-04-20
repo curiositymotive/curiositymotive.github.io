@@ -19,7 +19,11 @@ layout: with-sidebar
 
         <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
-        {{ post.excerpt | truncatewords: 28 }}
+        {% if post.blurb %}
+          <p>{{ post.blurb }}</p>
+        {% else %}
+          {{ post.excerpt | truncatewords: 28 }}
+        {% endif %}
 
         <p class="meta">
             <a href="{{ post.author_url | | prepend: '/' | prepend: site.baseurl }}">{{ post.author_name | capitalize }}</a> in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize}}</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> {{ post.read_time }} minutes
