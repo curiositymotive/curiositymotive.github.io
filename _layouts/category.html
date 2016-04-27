@@ -26,7 +26,7 @@ layout: with-sidebar
         {% endif %}
 
         <p class="meta">
-            <a href="{{ post.author_url | | prepend: '/' | prepend: site.baseurl }}">{{ post.author_name | capitalize }}</a> in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize}}</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> {{ post.read_time }} minutes
+          <i class="fa fa-bolt metaicon"></i> <a href="{{ post.author_url | | prepend: '/' | prepend: site.baseurl }}">{{ post.author_name | capitalize }}</a> in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize}}</a>
         </p>
 
         </div>

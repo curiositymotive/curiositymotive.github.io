@@ -24,7 +24,7 @@ layout: with-sidebar
                 <i class="fa fa-bolt metaicon"></i> <a href="{{ post.author_url | prepend: site.baseurl }}">{{ post.author_name | capitalize}}</a> in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize }}</a>
             </p>
         </div>
-        
+
         {% if post.square_related %}
           <div class=" col-xs-3  no-gutter">
               <img src="{{ site.baseurl}}/img/{{ post.square_related }}.jpg" class="post-icon user-1" alt="user-image">
@@ -46,7 +46,7 @@ layout: with-sidebar
 
                 <div class="category-preview col-xs-6 col-sm-4 ">
                     <h2>{{ category | first | capitalize }}</h2>
-                    <a href='{{ "category/" | append: category.first | prepend: site.baseurl }}'><img src='{{ "img/" | append: category.first | prepend: site.baseurl }}-thumbnail.jpg' alt="category-image"></a>
+                    <a href='{{ "category/" | append: category.first | prepend: site.baseurl }}'><img src='{{ "img/categories/" | append: category.first | prepend: site.baseurl }}-thumbnail.jpg' alt="category-image"></a>
                 </div>
             {% endfor %}
         </section>
