@@ -15,6 +15,7 @@ blurb: "There is a lot to learn when it comes to Ember and it can feel daunting.
 logo: /images/post/emberjs-logo.png
 img:
   small: /images/post/emberjs-solid.png
+headerDark: true
 published: true
 ---
 

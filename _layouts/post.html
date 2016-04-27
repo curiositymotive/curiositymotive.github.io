@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<header class="hero-image" style="background-image: url({{ site.baseurl }}/img/{{page.feature_image}}.jpg);">
+<header class="hero-image{% if page.headerDark == true %}-dark{% endif %}" style='background-image: url({{"/img/" | append: page.feature_image | prepend: site.baseurl }}.jpg);'>
     <span class="menu-trigger animated fadeInDown">
         <i class="fa fa-chevron-circle-left navicon"></i>
     </span>

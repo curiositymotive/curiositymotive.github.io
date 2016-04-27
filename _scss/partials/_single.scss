@@ -18,6 +18,49 @@
   }
 }
 
+.hero-image-dark {
+  height: 150px;
+  width: 100%;
+  background-image: url(../img/default-single-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include breakpoint(sm) {
+    height: 300px;
+  }
+
+  @include breakpoint(md) {
+    height: 390px;
+  }
+
+  @include breakpoint(lg) {
+    height: 460px;
+  }
+
+  &:after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    @include breakpoint(sm) {
+      height: 300px;
+    }
+
+    @include breakpoint(md) {
+      height: 390px;
+    }
+
+    @include breakpoint(lg) {
+      height: 460px;
+    }
+  }
+}
+
 .meta {
   @include clearfix;
   @include font-size(12);
