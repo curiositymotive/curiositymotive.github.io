@@ -7338,6 +7338,14 @@ a {
   -webkit-border-radius: 50%;
           border-radius: 50%; }
 
+.post-icon {
+  width: 85%;
+  height: 85%;
+  padding: 0;
+  float: right;
+  -webkit-border-radius: 3%;
+          border-radius: 3%; }
+
 #menu-target {
   position: absolute !important;
   top: -9999px !important;

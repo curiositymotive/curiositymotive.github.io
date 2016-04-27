@@ -11,7 +11,7 @@ layout: with-sidebar
     {% for post in site.posts %}
 
     <article class="post">
-        <div class="post-preview col-xs-10  no-gutter">
+        <div class="post-preview col-xs-9  no-gutter">
             <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
             {% if post.blurb %}
@@ -24,15 +24,14 @@ layout: with-sidebar
                 <i class="fa fa-bolt metaicon"></i> <a href="{{ post.author_url | prepend: site.baseurl }}">{{ post.author_name | capitalize}}</a> in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize }}</a>
             </p>
         </div>
-
-
+        
         {% if post.square_related %}
-          <div class=" col-xs-2  no-gutter">
-              <img src="{{ site.baseurl}}/img/{{ post.square_related }}.jpg" class="user-icon user-1" alt="user-image">
+          <div class=" col-xs-3  no-gutter">
+              <img src="{{ site.baseurl}}/img/{{ post.square_related }}.jpg" class="post-icon user-1" alt="user-image">
           </div>
         {% else %}
-          <div class=" col-xs-2  no-gutter">
-              <img src="{{ site.baseurl}}/img/{{ post.feature_image }}.jpg" class="user-icon user-1" alt="user-image">
+          <div class=" col-xs-3  no-gutter">
+              <img src="{{ site.baseurl}}/img/{{ post.feature_image }}.jpg" class="post-icon user-1" alt="user-image">
           </div>
         {% endif %}
     </article>
