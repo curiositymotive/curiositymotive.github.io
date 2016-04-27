@@ -7383,15 +7383,13 @@ a {
 
 .menu-trigger {
   top: 15px;
-  left: 15px;
+  left: 0;
   z-index: 1080;
   position: absolute;
   display: block;
-  height: 40px;
-  width: 40px;
-  background: #333333;
-  padding-top: 8px;
-  cursor: pointer; }
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  padding-left: 2px; }
   .menu-trigger span {
     height: 5px;
     width: 28px;
@@ -7399,6 +7397,15 @@ a {
     display: block;
     margin: 0 6px 5px;
     background: white; }
+  .menu-trigger i.navicon {
+    display: block;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 25px;
+    margin: 10px 13px 10px 13px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+    .menu-trigger i.navicon:hover {
+      color: white; }
 
 .sidebar {
   padding: 15px;
