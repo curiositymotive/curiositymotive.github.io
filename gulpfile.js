@@ -60,8 +60,8 @@ gulp.task('browser-sync', ['sass', 'js', 'jekyll-build'], function() {
  gulp.task('js', function() {
      return gulp.src(['js/*.js'])
          .pipe(concat('main.min.js'))
-         .pipe(gulp.dest('_site/js'))
-         .pipe(rename('main.min.js'))
+         //.pipe(gulp.dest('_site/js'))
+         //.pipe(rename('main.min.js'))
          .pipe(uglify())
          .pipe(gulp.dest('_site/js')).pipe(gulp.dest('js'));
  });
