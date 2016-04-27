@@ -7585,6 +7585,42 @@ a {
     .hero-image {
       height: 460px; } }
 
+.hero-image-dark {
+  height: 150px;
+  width: 100%;
+  background-image: url(../img/default-single-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media (min-width: 768px) {
+    .hero-image-dark {
+      height: 300px; } }
+  @media (min-width: 992px) {
+    .hero-image-dark {
+      height: 390px; } }
+  @media (min-width: 1200px) {
+    .hero-image-dark {
+      height: 460px; } }
+  .hero-image-dark:after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); }
+    @media (min-width: 768px) {
+      .hero-image-dark:after {
+        height: 300px; } }
+    @media (min-width: 992px) {
+      .hero-image-dark:after {
+        height: 390px; } }
+    @media (min-width: 1200px) {
+      .hero-image-dark:after {
+        height: 460px; } }
+
 .meta {
   *zoom: 1;
   font-size: 12px;
