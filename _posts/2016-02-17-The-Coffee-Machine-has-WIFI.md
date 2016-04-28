@@ -24,4 +24,4 @@ I decided to keep working on the network side and ran a scan of every IP in the 
 
 The next step was to do a little research. Soon I realized trying to find user manuals was as sketchy as looking for random hardware drivers. I managed to find some promotional pdf’s and a few distributors of the machine but have yet to find any sort of service or user material. A few things that caught my eye were add on items to the product. The manufacture offers a paid service to remotely monitor your machine. Also, a credit card processor is an optional item. One would hope that these services have even the most basic of security. Perhaps thinking this wanna be hacker has any chance at cracking the machine is a bit of a stretch. Looks like this experiment will have to come down to good ol’ social engineering.
 
-_To be continued…_
+[Read Part II >>](/The-Coffee-Machine-has-WIFI-Part-II/)

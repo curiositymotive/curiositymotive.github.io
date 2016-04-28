@@ -26,9 +26,3 @@ After further noodling with the admin side of the software, I turned to the comp
 In a perfect world, I would have been able to create an image of the CF card that could both be used for imaging the new card and also loading in a VM to test modifications on. Unfortunately, I was never able to get the machine to boot from this card. I believe there is something I missed in order to make it a bootable card. A co-worker mentioned some software that would clone the card but I never made it that far.
 
 During a casual conversation about this I mention my fear of breaking the machine because of how much usage I saw in the log files. This sparked the interest of Ryan who took the logs files and created an API that could query the data. The idea is to create some sort of data visualization about coffee drinkers in the office. There is also the idea floating around to combine the coffee machine data with data from the bathroom door sensor that Alex installed. Please feel free to send us title suggestions for this combined data viz.
-
-
-=========================================================
-Replace "To be continued" on Coffee machine 1:
-[To be continued…](/The-Coffee-Machine-has-WIFI-Part-II/)
-=========================================================
