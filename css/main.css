@@ -7315,11 +7315,10 @@ a {
   .meta i {
     font-style: normal; }
 
-<<<<<<< HEAD
 .hidden-from-view {
   left: -5000px;
   position: absolute; }
-=======
+
 .post-img-full {
   width: 150%;
   max-width: 150% !important;
@@ -7339,7 +7338,6 @@ a {
   .post-img-right, .post-img-left {
     float: none;
     margin: 0 0 0 0; } }
->>>>>>> master
 
 .btn-default {
   padding: 10px 15px;
