@@ -12,8 +12,6 @@
 
   a {
     color: $light-grey;
-
-    font-weight: normal;
     &:hover,
     &:active {
       text-decoration: none;
@@ -24,36 +22,6 @@
   i {
     font-style: normal;
   }
-}
-
-.hidden-from-view { left: -5000px; position: absolute; }
-
-.post-img-full {
-  width: 150%;
-  max-width: 150% !important;
-  margin: 0 -25%;
-  position: relative;
-  display: block;
-}
-
-.post-img-right {
-  float: right;
-  margin: 1em -5% 1em 1.5em;
-}
-
-.post-img-left {
-  float: left;
-  margin: 1em 1.5em 1em -5%;
-}
-
-@media only screen
-  and (max-device-width: 480px) {
-
-  .post-img-right, .post-img-left {
-    float:none;
-    margin:0 0 0 0;
-  }
-
 }
 
 .btn-default {
