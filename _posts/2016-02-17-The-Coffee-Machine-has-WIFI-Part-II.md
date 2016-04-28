@@ -8,7 +8,7 @@ author_url : /author/kyle
 author_avatar: 8fb3464e807f98059679ed094b28f132
 show_avatar : true
 feature_image: /post-assets/coffee2-large
-show_related_posts: true
+show_related_posts: false
 square_related: /post-assets/coffee2-small
 blurb: "Digging deeper into the inside of the machine, the first thing I did was research any model numbers found inside the unit."
 headerDark: true
