@@ -5,9 +5,8 @@ date: 2016-02-17 00:10:00
 categories: problem_solvers
 author_name : Ryan
 author_url : /author/ryan
-author_avatar: fred
+author_avatar: b0b87d301eac441434be0a91dfb161be
 show_avatar : true
-read_time : 34
 feature_image: /post-assets/emberjs-logo
 show_related_posts: false
 square_related: /post-assets/emberjs-solid
