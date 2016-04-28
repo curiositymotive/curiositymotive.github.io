@@ -24,6 +24,8 @@
   }
 }
 
+.hidden-from-view { left: -5000px; position: absolute; }
+
 .btn-default {
   padding: 10px 15px;
   background: #fafafa;
