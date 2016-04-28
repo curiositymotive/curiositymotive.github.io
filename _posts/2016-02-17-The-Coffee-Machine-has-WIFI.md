@@ -5,11 +5,10 @@ date: 2016-02-17 00:00:05
 categories: hacking coffee r&d
 author_name : Kyle
 author_url : /author/kyle
-author_avatar: fred
+author_avatar: 8fb3464e807f98059679ed094b28f132
 show_avatar : true
-read_time : 34
 feature_image: /post-assets/coffee-large
-show_related_posts: true
+show_related_posts: false
 square_related: /post-assets/coffee-small
 blurb: "How sweet would it be to initiate a cup of coffee from my desk then have it ready after walking across the office and up the stairs."
 headerDark: true
