@@ -11,15 +11,20 @@ layout: with-sidebar
     </div>
 </div>
 
-<h2 class="favorites">Featured posts</h2>
+<h2 class="favorites">Posts by {{ page.author_name }}</h2>
 
 <div class="posts-block animated fadeIn ">
 
-    {% for post in page.fav_posts %}
+    {% assign posts = (site.posts | where: "author_name" , page.author_name) %}
+    {% for post in posts %}
     <article class="post author-page">
         <div class="post-preview col-xs-12  no-gutter">
-            <h2><a href="{{ post[1][1] | prepend: '/' | prepend: site.baseurl }}">{{ post[1][0] }}</a></h2>
-            <p>{{ post[1][2] }}</p>
+          <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+          {% if post.blurb %}
+            <p>{{ post.blurb }}</p>
+          {% else %}
+            {{ post.excerpt | truncatewords: 28 }}
+          {% endif %}
         </div>
     </article>
     {% endfor %}
