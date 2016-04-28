@@ -1,11 +1,10 @@
 ---
 layout: author
-title: Kyle
-permalink: author/kyle/
-feature_image: feature-plantpot
-author_avatar: 8fb3464e807f98059679ed094b28f132
-author_name: Kyle
 title: Kyle Werner
+feature_image: feature-plantpot
+author_name: Kyle
+author_avatar: 8fb3464e807f98059679ed094b28f132
+permalink: author/kyle/
 ---
 
 # Kyle Werner

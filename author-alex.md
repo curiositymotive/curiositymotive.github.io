@@ -1,11 +1,10 @@
 ---
 layout: author
-title: Alex
-permalink: author/alex/
-feature_image: feature-plantpot
-author_avatar: 66acc29d510422688421bae87c69b3a3
-author_name: Alex
 title: Alex Porter
+feature_image: feature-plantpot
+author_name: Alex
+author_avatar: 66acc29d510422688421bae87c69b3a3
+permalink: author/alex/
 ---
 
 # Alex Porter

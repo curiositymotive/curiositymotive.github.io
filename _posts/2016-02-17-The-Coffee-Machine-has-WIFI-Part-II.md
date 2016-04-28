@@ -5,9 +5,8 @@ date: 2016-02-08
 categories: hacking coffee r&d
 author_name : Kyle
 author_url : /author/kyle
-author_avatar: fred
+author_avatar: 8fb3464e807f98059679ed094b28f132
 show_avatar : true
-read_time : 34
 feature_image: /post-assets/coffee2-large
 show_related_posts: true
 square_related: /post-assets/coffee2-small

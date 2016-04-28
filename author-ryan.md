@@ -1,11 +1,10 @@
 ---
 layout: author
-title: Ryan
-permalink: author/ryan/
-feature_image: feature-plantpot
-author_avatar: b0b87d301eac441434be0a91dfb161be
-author_name: Ryan
 title: Ryan Billingsley
+feature_image: feature-plantpot
+author_name: Ryan
+author_avatar: b0b87d301eac441434be0a91dfb161be
+permalink: author/ryan/
 ---
 
 # Ryan Billingsley
