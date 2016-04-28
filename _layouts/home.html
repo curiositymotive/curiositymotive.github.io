@@ -11,7 +11,7 @@ layout: with-sidebar
     {% for post in site.posts %}
 
     <article class="post">
-        <div class="post-preview col-xs-9  no-gutter">
+        <div class="post-preview col-xs-9 no-gutter">
             <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
             {% if post.blurb %}

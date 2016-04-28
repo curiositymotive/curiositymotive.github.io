@@ -15,7 +15,7 @@ layout: with-sidebar
 
     {% for post in site.categories.[page.category] %}
     <article class="post">
-        <div class="post-preview col-xs-10  no-gutter">
+        <div class="post-preview col-xs-9 no-gutter">
 
         <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
@@ -31,10 +31,14 @@ layout: with-sidebar
 
         </div>
 
-        {% if post.show_avatar == true %}
-        <div class=" col-xs-2  no-gutter">
-            <img src='{{ "/img/" | append: post.author_avatar | prepend: site.baseurl }}.jpg' class="user-icon user-1" alt="user-image">
-        </div>
+        {% if post.square_related %}
+          <div class=" col-xs-3  no-gutter">
+              <img src="{{ site.baseurl}}/img/{{ post.square_related }}.jpg" class="post-icon user-1" alt="user-image">
+          </div>
+        {% else %}
+          <div class=" col-xs-3  no-gutter">
+              <img src="{{ site.baseurl}}/img/{{ post.feature_image }}.jpg" class="post-icon user-1" alt="user-image">
+          </div>
         {% endif %}
 
     </article>
