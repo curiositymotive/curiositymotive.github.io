@@ -12,37 +12,53 @@
 }
 
 #jPanelMenu-menu {
-  background-color: #333337;
+  background-color: #222;
   overflow: hidden;
   overflow-y: hidden !important;
   ul {
-    padding: 10px 0;
+    padding:0;
   }
   li {
     margin: 0;
-    padding: 10px 0;
+    padding: 0;
     list-style: none;
     i {
-      padding: 0 20px;
-      color: #dadada;
+      padding: 0 15px;
+      color: $ruby;
       font-style: normal;
-      @include font-size(14);
+      @include font-size(16);
     }
     a {
-      color: #dadada;
+      display: block;
+      color: #ffffff;
       font-family: $sans;
-      font-weight: 700;
-      border-bottom: 0 transparent;
-      @include font-size(12);
+      font-weight: 400;
+      border-bottom: 1px solid lighten(#222,5%);
+      padding: 10px;
+      @include font-size(18);
       &:hover {
-        border-bottom: none;
-        color: white;
+        border-bottom: 1px solid darken($light-grey,50%);
+        background: darken(#333,5%);
       }
     }
   }
   hr {
     margin: 20px auto;
     width: 40%;
+  }
+}
+
+.primer {
+  padding: 25px;
+  border-bottom: 1px solid lighten(#222,5%);
+
+  p {
+    color: rgba(255,255,255,0.75);
+    font-family: $sans;
+    font-weight: 400;
+    line-height: 1.45;
+    @include font-size(14);
+    margin-bottom: 0;
   }
 }
 
