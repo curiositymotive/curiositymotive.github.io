@@ -83,7 +83,7 @@ var s,
 
             s.jpm = $.jPanelMenu({
                 menu : '#menu-target',
-                trigger: '.menu-trigger',
+                trigger: '.menu-trigger, .menu-triggered',
                 animated: false,
                 beforeOpen : ( function() {
                     if (matchMedia('only screen and (min-width: 992px)').matches) {
@@ -103,4 +103,3 @@ var s,
 $(document).ready(function(){
     app.init();
 });
-

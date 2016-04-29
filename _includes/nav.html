@@ -1,7 +1,10 @@
 <div id="menu-target">
+    <div class="primer">
+      <p>Nulla imperdiet nibh lectus, sed tincidunt elit congue sed. Vestibulum pretium bibendum eros nec auctor. Morbi congue urna a fringilla vehicula. Cras aliquet sapien sapien, eu sodales augue tincidunt at. Ut risus tortor, scelerisque vitae feugiat accumsan, placerat non enim. Etiam cursus iaculis enim, ut interdum eros hendrerit et. In malesuada, augue at ornare tincidunt, elit lacus iaculis ex, sit amet venenatis ante odio nec ipsum. Maecenas sodales pellentesque nibh, quis tempor sem ullamcorper eget. Sed in elit at mauris ultricies molestie.</p>
+    </div>
     <ul>
         {% for page in site.nav_list %}
-            <li><i class="fa {{ page[1][2] }}"></i><a href="{{ page[1][1] | prepend: site.baseurl }}">{{ page[1][0] }}</a></li>
+            <li><a href="{{ page[1][1] | prepend: site.baseurl }}"><i class="fa {{ page[1][2] }}"></i> {{ page[1][0] }}</a></li>
         {% endfor %}
     </ul>
 </div>

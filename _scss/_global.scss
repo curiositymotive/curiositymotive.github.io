@@ -40,19 +40,48 @@ img {
   max-width: 100%;
 }
 
-.sitelogo {
+.nnn {
+  padding: 25px;
+  margin: 0 0 15px 0;
+  border-bottom: 1px solid #252525;
+
+  .nnnlogo {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+
+    .rbf {
+      fill: $brand-color;
+    }
+
+    .wf {
+      fill: #ffffff;
+    }
+  }
+}
+
+.ccclogo {
   display: block;
-  width: 60%;
+  max-width: 50%;
+  width: 50%;
   margin: 0 auto;
 
+  .rbf {
+    fill: $brand-color;
+  }
+
+  .wf {
+    fill: #ffffff;
+  }
+
   @include breakpoint(sm) {
-    display: inline-block;
-    max-width: 60%;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
   }
 
   @include breakpoint(med) {
-    display: inline-block;
-    max-width: 75%;
+    margin: 0 auto;
   }
 }
 
