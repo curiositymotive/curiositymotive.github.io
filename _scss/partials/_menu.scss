@@ -47,7 +47,72 @@
 }
 
 .menu-trigger {
-  top: 15px;
+  top: 30px;
+  left: 0;
+  z-index: 1080;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  background: rgba(0,0,0,0.5);
+  padding-left: 5px;
+  line-height: 1;
+  border-radius: 0 3px 3px 0;
+
+  span {
+    height: 5px;
+    width: 28px;
+    float: left;
+    display: block;
+    margin: 0;
+    background: white;
+  }
+
+  i.navicon {
+    display: block;
+    color: rgba(255,255,255,0.5);
+    font-size: 25px;
+    margin: 10px 13px 10px 13px;
+	  transition: all 0.2s ease-in-out;
+
+    &:hover {
+      color: rgba(255,255,255,1);
+    }
+  }
+
+  .cm_icon {
+    width: 300px;
+    height: auto;
+    margin: 15px 15px 12px 15px;
+    transition: all 0.2s ease-in-out;
+
+    .cm_fill {
+      fill: rgba(255,255,255,0.5);
+  	  transition: all 0.2s ease-in-out;
+
+      &:hover {
+        fill: rgba(255,255,255,1);
+      }
+    }
+
+    .rbf {
+      fill: $brand-color;
+    }
+
+    .wf {
+      fill: #ffffff;
+    }
+
+    &:hover {
+      opacity: .65;
+    }
+  }
+
+}
+
+
+
+.menu-triggered {
+  bottom: 30px;
   left: 0;
   z-index: 1080;
   position: absolute;
