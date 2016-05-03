@@ -15,16 +15,4 @@
     </span>
 
     {% include nav-no-js.html %}
-
-    <div class="site-info">
-        <div class="primary-info"></div>
-
-        {% if page.include_cta_btn == true %}
-        <div class="secondary-info">
-            <p>
-                <a class="btn btn-primary" href="{{ page.cta_link | prepend: site.baseurl }}"><i class="fa {{ page.cta_icon }}"></i>{{page.cta_text}}</a>
-            </p>
-        </div>
-        {% endif %}
-    </div>
 </section><!-- end sidebar -->
