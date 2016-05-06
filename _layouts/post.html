@@ -21,7 +21,7 @@ layout: default
     <div class="row">
         <div class="col-xs-12 single-content">
             <p class="meta">
-              <i class="fa fa-bolt metaicon"></i> <a href="{{ page.author_url | prepend: site.baseurl }}">{{ page.author_name | capitalize}}</a> in <a href='{{ "/category/" | append: page.categories.first | prepend: site.baseurl }}'>{{ page.categories[0] | capitalize }}</a>
+              <i class="fa fa-bolt metaicon"></i> <a href="{{ page.author_url | prepend: site.baseurl }}">{{ page.author_fullname | camelcase}}</a> in <a href='{{ "/category/" | append: page.categories.first | prepend: site.baseurl }}'>{{ page.categories[0] | capitalize }}</a>
             </p>
 
             <h1>{{ page.title }}</h1>

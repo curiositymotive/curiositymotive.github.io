@@ -3,10 +3,11 @@ layout: post
 title:  "Problem Solvers - Using hash and all with promises in Ember"
 date: 2016-02-17 00:10:00
 categories: problem_solvers
-author_name : Ryan
-author_url : /author/ryan
+author_name: Ryan
+author_fullname: Ryan Billingsley
+author_url: /author/ryan
 author_avatar: b0b87d301eac441434be0a91dfb161be
-show_avatar : true
+show_avatar: true
 feature_image: /post-assets/emberjs-logo
 show_related_posts: false
 square_related: /post-assets/emberjs-solid
