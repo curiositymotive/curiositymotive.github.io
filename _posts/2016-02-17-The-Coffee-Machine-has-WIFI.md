@@ -15,6 +15,7 @@ blurb: "How sweet would it be to initiate a cup of coffee from my desk then have
 headerDark: true
 published: true
 ---
+
 One day a new shiny office coffee machine showed up. Unlike the previous one, this machine had a large touchscreen instead of buttons. Of course, the first time I try to use it it locks up and says “trash full.” After tracking down the office manager, I watched her open the front, press a small button on the inside, enable the settings screen and that is when I saw a small WIFI icon in the bottom corner. This was the first time I thought about messing with it, but I didn’t have the time or any specific reason.
 
 Fast forward a few months and I run into [this wonderful article about automation](https://www.jitbit.com/alexblog/249-now-thats-what-i-call-a-hacker/) and I now have a reason. How sweet would it be to initiate a cup of coffee from my desk then have it ready after walking across the office and up the stairs. However, our machine does not provide the cup. That means I either have to tackle anyone who tries to get in my way to chat or I have it wait after brewing and program a button to dispense. But that’s a problem that can be worried about once the experiment is successful.

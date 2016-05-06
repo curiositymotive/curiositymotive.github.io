@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Coffee Machine has WIFI Part II"
-date: 2016-02-08
+date: 2016-02-17 00:00:04
 categories: hacking coffee r&d
 author_name: Kyle
 author_fullname: Kyle Werner
