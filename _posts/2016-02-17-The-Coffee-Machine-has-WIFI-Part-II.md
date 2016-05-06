@@ -1,12 +1,13 @@
 ---
 layout: post
 title:  "The Coffee Machine has WIFI Part II"
-date: 2016-02-08
+date: 2016-02-17 00:00:04
 categories: hacking coffee r&d
-author_name : Kyle
-author_url : /author/kyle
+author_name: Kyle
+author_fullname: Kyle Werner
+author_url: /author/kyle
 author_avatar: 8fb3464e807f98059679ed094b28f132
-show_avatar : true
+show_avatar: true
 feature_image: /post-assets/coffee2-large
 show_related_posts: false
 square_related: /post-assets/coffee2-small

@@ -1,10 +1,11 @@
 ---
 layout: author
-title: Ryan Billingsley
+title: Nathan Bingham
 feature_image: feature-plantpot
-author_name: Ryan
-author_avatar: b0b87d301eac441434be0a91dfb161be
-permalink: author/ryan/
+author_name: Nate
+author_fullname: Nathan Bingham
+author_avatar: ea0a58cf4ba79240763878e846109d9a
+permalink: author/nate/
 ---
 
 # {{ page.author_fullname }}

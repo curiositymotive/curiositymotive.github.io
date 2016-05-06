@@ -1,10 +1,11 @@
 ---
 layout: author
-title: Ryan Billingsley
+title: Jonathan Buckner
 feature_image: feature-plantpot
-author_name: Ryan
-author_avatar: b0b87d301eac441434be0a91dfb161be
-permalink: author/ryan/
+author_name: JB
+author_fullname: Jonathan Buckner
+author_avatar: cf6d81e5e517d1665bee49edc37b9e7a
+permalink: author/jb/
 ---
 
 # {{ page.author_fullname }}

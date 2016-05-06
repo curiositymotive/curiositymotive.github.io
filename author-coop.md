@@ -1,10 +1,11 @@
 ---
 layout: author
-title: Ryan Billingsley
+title: Andrew Cooper
 feature_image: feature-plantpot
-author_name: Ryan
-author_avatar: b0b87d301eac441434be0a91dfb161be
-permalink: author/ryan/
+author_name: Coop
+author_fullname: Andrew Cooper
+author_avatar: 8a9a6cd0bafb16ecf61344203a81b615
+permalink: author/coop/
 ---
 
 # {{ page.author_fullname }}

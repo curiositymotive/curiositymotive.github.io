@@ -1,10 +1,11 @@
 ---
 layout: author
-title: Ryan Billingsley
+title: Heather Ousley
 feature_image: feature-plantpot
-author_name: Ryan
-author_avatar: b0b87d301eac441434be0a91dfb161be
-permalink: author/ryan/
+author_name: Heather
+author_fullname: Heather Ousley
+author_avatar: 23b98cb4a6a4cb784aa00a98d196bf56
+permalink: author/heather/
 ---
 
 # {{ page.author_fullname }}

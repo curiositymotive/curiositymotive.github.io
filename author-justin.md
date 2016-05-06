@@ -1,10 +1,11 @@
 ---
 layout: author
-title: Ryan Billingsley
+title: Justin Lacey
 feature_image: feature-plantpot
-author_name: Ryan
-author_avatar: b0b87d301eac441434be0a91dfb161be
-permalink: author/ryan/
+author_name: Justin
+author_fullname: Justin Lacey
+author_avatar: e96ee9daad57e5c8bdce606b12f0f97e
+permalink: author/justin/
 ---
 
 # {{ page.author_fullname }}

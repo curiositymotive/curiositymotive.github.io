@@ -1,10 +1,11 @@
 ---
 layout: author
-title: Ryan Billingsley
+title: Jason Pitman
 feature_image: feature-plantpot
-author_name: Ryan
-author_avatar: b0b87d301eac441434be0a91dfb161be
-permalink: author/ryan/
+author_name: Jason
+author_fullname: Jason Pitman
+author_avatar: 50588ee52f8c834bdd3c997bc53392cf
+permalink: author/jason/
 ---
 
 # {{ page.author_fullname }}
