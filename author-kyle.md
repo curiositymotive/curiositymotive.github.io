@@ -3,6 +3,7 @@ layout: author
 title: Kyle Werner
 feature_image: feature-plantpot
 author_name: Kyle
+author_fullname: Kyle Werner
 author_avatar: 8fb3464e807f98059679ed094b28f132
 permalink: author/kyle/
 ---
