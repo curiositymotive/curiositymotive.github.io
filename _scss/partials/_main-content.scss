@@ -79,6 +79,7 @@
     padding: 10px;
     position: absolute;
     bottom: 0;
+    text-transform: capitalize;
     @include font-size(20);
     color: white;
   }
