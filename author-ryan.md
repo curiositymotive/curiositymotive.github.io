@@ -3,9 +3,6 @@ layout: author
 title: Ryan Billingsley
 feature_image: feature-plantpot
 author: ryan
-author_name: Ryan
-author_fullname: Ryan Billingsley
-author_avatar: b0b87d301eac441434be0a91dfb161be
 permalink: author/ryan/
 ---
 

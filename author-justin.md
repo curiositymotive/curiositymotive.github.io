@@ -3,9 +3,6 @@ layout: author
 title: Justin Lacey
 feature_image: feature-plantpot
 author: justin
-author_name: Justin
-author_fullname: Justin Lacey
-author_avatar: e96ee9daad57e5c8bdce606b12f0f97e
 permalink: author/justin/
 ---
 

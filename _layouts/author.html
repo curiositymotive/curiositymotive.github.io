@@ -6,7 +6,7 @@ layout: with-sidebar
 
 <div class="author-bio">
 
-    <img src='{{ "https://s.gravatar.com/avatar/" | append : page.author_avatar | prepend: site.baseurl }}?s=300.jpg'>
+    <img src='{{ "https://s.gravatar.com/avatar/" | append : author.avatar | prepend: site.baseurl }}?s=300.jpg'>
 
     <div class="author-bio__info">
         <h1>{{ author.display_name }}</h1>
@@ -17,7 +17,6 @@ layout: with-sidebar
 <h2 class="favorites">Posts by {{ author.name }}</h2>
 
 <div class="posts-block animated fadeIn ">
-
   {% for post in site.posts do %}
     {% if post.author == page.author %}
     <article class="post author-page">

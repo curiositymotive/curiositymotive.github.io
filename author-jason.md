@@ -3,9 +3,6 @@ layout: author
 title: Jason Pitman
 feature_image: feature-plantpot
 author: jason
-author_name: Jason
-author_fullname: Jason Pitman
-author_avatar: 50588ee52f8c834bdd3c997bc53392cf
 permalink: author/jason/
 ---
 

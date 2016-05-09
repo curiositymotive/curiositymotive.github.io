@@ -3,9 +3,6 @@ layout: author
 title: Heather Ousley
 feature_image: feature-plantpot
 author: heather
-author_name: Heather
-author_fullname: Heather Ousley
-author_avatar: 23b98cb4a6a4cb784aa00a98d196bf56
 permalink: author/heather/
 ---
 

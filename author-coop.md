@@ -3,9 +3,6 @@ layout: author
 title: Andrew Cooper
 feature_image: feature-plantpot
 author: coop
-author_name: Coop
-author_fullname: Andrew Cooper
-author_avatar: 8a9a6cd0bafb16ecf61344203a81b615
 permalink: author/coop/
 ---
 

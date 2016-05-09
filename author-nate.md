@@ -3,9 +3,6 @@ layout: author
 title: Nathan Bingham
 feature_image: feature-plantpot
 author: nate
-author_name: Nate
-author_fullname: Nathan Bingham
-author_avatar: ea0a58cf4ba79240763878e846109d9a
 permalink: author/nate/
 ---
 

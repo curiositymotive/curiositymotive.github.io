@@ -3,9 +3,6 @@ layout: author
 title: Alex Porter
 feature_image: feature-plantpot
 author: alex
-author_name: Alex
-author_fullname: Alex Porter
-author_avatar: 66acc29d510422688421bae87c69b3a3
 permalink: author/alex/
 ---
 
