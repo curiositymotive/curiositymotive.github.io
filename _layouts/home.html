@@ -1,7 +1,6 @@
 ---
 layout: with-sidebar
 ---
-
 <div class="sub-nav">
     <a href="#" class="select-posts active">Posts</a>
     <a href="#" class="select-categories">Categories</a>
@@ -9,6 +8,7 @@ layout: with-sidebar
 
 <div class="home-page-posts animated fadeIn ">
     {% for post in site.posts %}
+    {% assign author = site.data.authors[post.author] %}
 
     <article class="post">
         <div class="post-preview col-xs-9 no-gutter">
@@ -21,7 +21,7 @@ layout: with-sidebar
             {% endif %}
 
             <p class="meta">
-                <i class="fa fa-bolt metaicon"></i> <a href="{{ post.author_url | prepend: site.baseurl }}">{{ post.author_fullname | camelcase}}</a> in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize }}</a>
+                <i class="fa fa-bolt metaicon"></i> <a href="{{ author.permalink }}">{{ author.display_name }}</a> in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize }}</a>
             </p>
         </div>
 
