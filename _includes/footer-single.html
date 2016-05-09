@@ -1,12 +1,12 @@
 <div class="container">
     <div class="row">
         <div class="col-xs-12 col-sm-2">
-            <img src='{{ "https://s.gravatar.com/avatar/" | append : page.author_avatar | prepend: site.baseurl }}?s=300.jpg' class="user-icon " alt="user-image">
+            <img src='{{ "https://s.gravatar.com/avatar/" | append : author.avatar | prepend: site.baseurl }}?s=300.jpg' class="user-icon " alt="user-image">
         </div>
         <div class="col-xs-12 col-sm-6">
             <div class="category-list">
                 <p>Published <span>{{ page.date | date: "%b %-d, %Y" }}</span></p>
-                <p><a href="{{ page.author_url }}">{{ page.author_fullname | capitalize }}</a></p>
+                <p><a href="/{{ author.permalink }}">{{ author.display_name | capitalize }}</a></p>
 
                 <div class="other-catergories">
                     <h3>Found in</h3>

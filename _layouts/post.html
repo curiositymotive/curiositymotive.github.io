@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% assign author = site.data.authors[page.author] %}
+
 <header class="hero-image{% if page.headerDark == true %}-dark{% endif %}" style='background-image: url({{"/img/" | append: page.feature_image | prepend: site.baseurl }}.jpg);'>
   <span class="menu-trigger animated fadeInDown">
     <svg id="LL1" class="cm_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 415.9 57.1">
@@ -21,7 +23,7 @@ layout: default
     <div class="row">
         <div class="col-xs-12 single-content">
             <p class="meta">
-              <i class="fa fa-bolt metaicon"></i> <a href="{{ page.author_url | prepend: site.baseurl }}">{{ page.author_fullname | camelcase}}</a> in <a href='{{ "/category/" | append: page.categories.first | prepend: site.baseurl }}'>{{ page.categories[0] | capitalize }}</a>
+              <i class="fa fa-bolt metaicon"></i> <a href="/{{ author.permalink }}">{{ author.display_name }}</a> in <a href='{{ "/category/" | append: page.categories.first | prepend: site.baseurl }}'>{{ page.categories[0] | capitalize }}</a>
             </p>
 
             <h1>{{ page.title }}</h1>
