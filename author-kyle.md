@@ -6,9 +6,8 @@ author_name: Kyle
 author_fullname: Kyle Werner
 author_avatar: 8fb3464e807f98059679ed094b28f132
 permalink: author/kyle/
+author: kyle
 ---
-
-# {{ page.author_fullname }}
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis necessitatibus repellat et similique, assumenda dolor possimus sunt repellendus ratione quas nihil expedita maiores, ex id odio molestiae ipsam officiis magni!
 
