@@ -9,3 +9,38 @@ kyle:
   display_name: Kyle Werner
   avatar: 8fb3464e807f98059679ed094b28f132
   permalink: author/kyle/
+alex:
+  name: Alex
+  display_name: Alex Porter
+  avatar: 66acc29d510422688421bae87c69b3a3
+  permalink: author/alex/
+jb:
+  name: JB
+  display_name: Jonathan Buckner
+  avatar: cf6d81e5e517d1665bee49edc37b9e7a
+  permalink: author/jb/
+justin:
+  name: Justin
+  display_name: Justin Lacey
+  avatar: e96ee9daad57e5c8bdce606b12f0f97e
+  permalink: author/justin/
+coop:
+  name: Coop
+  display_name: Andrew Cooper
+  avatar: 8a9a6cd0bafb16ecf61344203a81b615
+  permalink: author/coop/
+heather:
+  name: Heather
+  display_name: Heather Ousley
+  avatar: 23b98cb4a6a4cb784aa00a98d196bf56
+  permalink: author/heather/
+nate:
+  name: Nate
+  display_name: Nathan Bingham
+  avatar: ea0a58cf4ba79240763878e846109d9a
+  permalink: author/nate/
+jason:
+  name: Jason
+  display_name: Jason Pitman
+  avatar: 50588ee52f8c834bdd3c997bc53392cf
+  permalink: author/jason/
