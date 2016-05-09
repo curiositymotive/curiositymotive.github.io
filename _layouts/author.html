@@ -6,7 +6,7 @@ layout: with-sidebar
 
 <div class="author-bio">
 
-    <img src='{{ "https://s.gravatar.com/avatar/" | append : author.avatar | prepend: site.baseurl }}?s=300.jpg'>
+    <img src='{{ author.avatar }}'>
 
     <div class="author-bio__info">
         <h1>{{ author.display_name }}</h1>

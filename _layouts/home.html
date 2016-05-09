@@ -21,7 +21,7 @@ layout: with-sidebar
             {% endif %}
 
             <p class="meta">
-                <i class="fa fa-bolt metaicon"></i> <a href="{{ author.permalink }}">{{ author.display_name }}</a> in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize }}</a>
+                <i class="fa fa-bolt metaicon"></i> <a href="/{{ author.permalink }}">{{ author.display_name }}</a> in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize }}</a>
             </p>
         </div>
 
