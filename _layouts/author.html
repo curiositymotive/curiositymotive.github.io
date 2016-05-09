@@ -18,8 +18,8 @@ layout: with-sidebar
 
 <div class="posts-block animated fadeIn ">
 
-    {% assign posts = (site.posts | where: "author_name" , page.author_name) %}
-    {% for post in posts %}
+  {% for post in site.posts do %}
+    {% if post.author == page.author %}
     <article class="post author-page">
         <div class="post-preview col-xs-12  no-gutter">
           <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
@@ -30,5 +30,6 @@ layout: with-sidebar
           {% endif %}
         </div>
     </article>
-    {% endfor %}
+    {% endif %}
+  {% endfor %}
 </div>
