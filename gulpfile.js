@@ -73,7 +73,7 @@ gulp.task('browser-sync', ['sass', 'js', 'jekyll-build'], function() {
 gulp.task('watch', function () {
     gulp.watch(['_scss/*.scss', '_scss/**/*.scss'], ['sass']);
     gulp.watch('js/*.js', ['js']);
-    gulp.watch(['index.html', '_includes/*.html', '_layouts/*.html', '_posts/*', 'css/*.scss', 'js/*.js'], ['jekyll-rebuild']);
+    gulp.watch(['index.html', 'author-*.md', 'about.md', 'contact.md', '_includes/*.html', '_layouts/*.html', '_posts/*', 'css/*.scss', 'js/*.js'], ['jekyll-rebuild']);
 });
 
 /**

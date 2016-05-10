@@ -2,21 +2,23 @@
 layout: with-sidebar
 ---
 
+{% assign author = site.data.authors[page.author] %}
+
 <div class="author-bio">
 
-    <img src='{{ "https://s.gravatar.com/avatar/" | append : page.author_avatar | prepend: site.baseurl }}?s=300.jpg'>
+    <img src='{{ author.avatar }}'>
 
     <div class="author-bio__info">
+        <h1>{{ author.display_name }}</h1>
         {{ content }}
     </div>
 </div>
 
-<h2 class="favorites">Posts by {{ page.author_name }}</h2>
+<h2 class="favorites">Posts by {{ author.name }}</h2>
 
 <div class="posts-block animated fadeIn ">
-
-    {% assign posts = (site.posts | where: "author_name" , page.author_name) %}
-    {% for post in posts %}
+  {% for post in site.posts do %}
+    {% if post.author == page.author %}
     <article class="post author-page">
         <div class="post-preview col-xs-12  no-gutter">
           <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
@@ -27,5 +29,6 @@ layout: with-sidebar
           {% endif %}
         </div>
     </article>
-    {% endfor %}
+    {% endif %}
+  {% endfor %}
 </div>
