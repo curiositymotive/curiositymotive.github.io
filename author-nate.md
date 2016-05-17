@@ -6,6 +6,4 @@ author: nate
 permalink: author/nate/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis necessitatibus repellat et similique, assumenda dolor possimus sunt repellendus ratione quas nihil expedita maiores, ex id odio molestiae ipsam officiis magni!
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis necessitatibus repellat et similique, assumenda dolor possimus sunt repellendus ratione quas nihil expedita maiores, ex id odio molestiae ipsam officiis magni!
+My name is Nathan, some people call me Nate. I like lots of things. Sometimes that works to my advantage. Other times it keeps me from being able to focus.
