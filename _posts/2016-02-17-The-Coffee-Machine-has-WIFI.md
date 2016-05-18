@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Coffee Machine has WIFI?"
-date: 2016-02-17 00:00:05
+date: 2016-05-18 00:00:05
 categories: hacking coffee r&d
 author: kyle
 show_avatar: true
@@ -10,6 +10,7 @@ show_related_posts: false
 square_related: /post-assets/coffee-small
 blurb: "How sweet would it be to initiate a cup of coffee from my desk then have it ready after walking across the office and up the stairs."
 headerDark: true
+permalink: /the-coffee-machine-has-wifi/
 published: true
 ---
 

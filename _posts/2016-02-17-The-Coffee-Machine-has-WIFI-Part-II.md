@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Coffee Machine has WIFI Part II"
-date: 2016-02-17 00:00:04
+date: 2016-05-19 00:00:04
 categories: hacking coffee r&d
 author: kyle
 show_avatar: true
@@ -10,7 +10,8 @@ show_related_posts: false
 square_related: /post-assets/coffee2-small
 blurb: "Digging deeper into the inside of the machine, the first thing I did was research any model numbers found inside the unit."
 headerDark: true
-published: true
+permalink: /the-coffee-machine-has-wifi-ii/
+published: false
 ---
 
 [<< Read Part I](/The-Coffee-Machine-has-WIFI/)

@@ -9,7 +9,7 @@ feature_image: /post-assets/22982065445_c80a17f6e4_k
 show_related_posts: false
 square_related: /post-assets/22982065445_c80a17f6e4_sm
 headerDark: true
-permalink: /joyinweirdplaces/
+permalink: /finding-joy-in-all-the-weird-places/
 published: true
 ---
 
