@@ -2,7 +2,7 @@
 title: Curiosity Motive
 email: curiositymotive@gmail.com
 description: > # Curiosity Motive needs a description.
-url: "http://curiositymotive.github.io/" # the base hostname & protocol for your site
+url: "http://curiositymotive.github.io" # the base hostname & protocol for your site
 enable_retina: true
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 nav_list:
