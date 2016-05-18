@@ -1,6 +1,6 @@
 ---
-layout: page
-title: About &ndash; Curiosity Motive
+layout: about
+title: About Curiosity Motive
 permalink: /about/
 feature_image: feature-book
 ---
