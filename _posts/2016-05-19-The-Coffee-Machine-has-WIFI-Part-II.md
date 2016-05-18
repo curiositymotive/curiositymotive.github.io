@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Coffee Machine has WIFI Part II"
-date: 2016-02-17 00:00:04
+date: 2016-05-19 00:00:04
 categories: hacking coffee r&d
 author: kyle
 show_avatar: true
@@ -10,10 +10,14 @@ show_related_posts: false
 square_related: /post-assets/coffee2-small
 blurb: "Digging deeper into the inside of the machine, the first thing I did was research any model numbers found inside the unit."
 headerDark: true
-published: true
+permalink: /the-coffee-machine-has-wifi-ii/
+published: false
 ---
 
 [<< Read Part I](/The-Coffee-Machine-has-WIFI/)
+[Read Part II >>](/The-Coffee-Machine-has-WIFI-Part-II/)
+
+Fix URLS ^
 
 After taking some time off from this experiment, some co-workers brought it back up and pushed me to keep trying. My prior attempt at finding a user manual failed so this time I took detailed pictures of the inside components and tried to find further information on how it works. Also with this further investigation I noticed a compact flash card inserted at the bottom of the main circuit board.
 

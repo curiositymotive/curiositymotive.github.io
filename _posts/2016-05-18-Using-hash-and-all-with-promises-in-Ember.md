@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Problem Solvers - Using hash and all with promises in Ember"
-date: 2016-02-17 00:10:00
+date: 2016-05-18 13:10:00
 categories: problem_solvers
 author: ryan
 show_avatar: true
@@ -9,10 +9,8 @@ feature_image: /post-assets/emberjs-logo
 show_related_posts: false
 square_related: /post-assets/emberjs-solid
 blurb: "There is a lot to learn when it comes to Ember and it can feel daunting. There are some tools in Ember that can make working with promises a little easier."
-logo: /images/post/emberjs-logo.png
-img:
-  small: /images/post/emberjs-solid.png
 headerDark: true
+permalink: /using-hash-and-all-with-promises-in-ember/
 published: true
 ---
 
