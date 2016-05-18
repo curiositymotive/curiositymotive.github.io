@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Finding Joy In All the Weird Places"
-date: 2016-05-18 10:00:00
+date: 2016-05-18 15:00:00
 categories: problem_solvers
 author: ryan
 show_avatar: true

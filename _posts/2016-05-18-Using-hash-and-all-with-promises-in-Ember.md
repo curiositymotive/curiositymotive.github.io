@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Problem Solvers - Using hash and all with promises in Ember"
-date: 2016-05-18 00:10:00
+date: 2016-05-18 13:10:00
 categories: problem_solvers
 author: ryan
 show_avatar: true

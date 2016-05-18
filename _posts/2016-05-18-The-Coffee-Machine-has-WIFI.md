@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Coffee Machine has WIFI?"
-date: 2016-05-18 00:00:05
+date: 2016-05-18 12:00:05
 categories: hacking coffee r&d
 author: kyle
 show_avatar: true
