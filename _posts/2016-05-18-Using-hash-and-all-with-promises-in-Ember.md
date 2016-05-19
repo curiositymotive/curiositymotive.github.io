@@ -9,6 +9,7 @@ feature_image: /post-assets/emberjs-logo
 show_related_posts: false
 square_related: /post-assets/emberjs-solid
 blurb: "There is a lot to learn when it comes to Ember and it can feel daunting. There are some tools in Ember that can make working with promises a little easier."
+comments: true
 headerDark: true
 permalink: /using-hash-and-all-with-promises-in-ember/
 published: true

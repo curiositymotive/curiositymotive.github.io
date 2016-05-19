@@ -9,6 +9,7 @@ feature_image: /post-assets/coffee-large
 show_related_posts: false
 square_related: /post-assets/coffee-small
 blurb: "How sweet would it be to initiate a cup of coffee from my desk then have it ready after walking across the office and up the stairs."
+comments: true
 headerDark: true
 permalink: /the-coffee-machine-has-wifi/
 published: true

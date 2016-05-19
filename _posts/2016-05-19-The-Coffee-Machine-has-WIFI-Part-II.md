@@ -9,6 +9,7 @@ feature_image: /post-assets/coffee2-large
 show_related_posts: false
 square_related: /post-assets/coffee2-small
 blurb: "Digging deeper into the inside of the machine, the first thing I did was research any model numbers found inside the unit."
+comments: true
 headerDark: true
 permalink: /the-coffee-machine-has-wifi-ii/
 published: false
