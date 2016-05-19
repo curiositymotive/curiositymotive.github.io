@@ -52,7 +52,7 @@
   }
 
   .primer {
-    padding: 25px;
+    padding: 25px 25px 20px 25px;
     border-bottom: 1px solid lighten(#222,5%);
 
     p {
@@ -61,7 +61,7 @@
       font-weight: 400;
       line-height: 1.45;
       @include font-size(14);
-      margin-bottom: 0;
+      margin-bottom: 8px;
     }
   }
 
