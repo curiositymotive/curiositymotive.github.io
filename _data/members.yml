@@ -1,46 +1,37 @@
-# Authors
-ryan:
-  name: Ryan
+# Members
+- name: Ryan
   display_name: Ryan Billingsley
   avatar: https://s.gravatar.com/avatar/b0b87d301eac441434be0a91dfb161be?s=300.jpg
   permalink: author/ryan/
-nate:
-  name: Nate
+- name: Nate
   display_name: Nathan Bingham
   avatar: https://s.gravatar.com/avatar/ea0a58cf4ba79240763878e846109d9a?s=300.jpg
   permalink: author/nate/
-jb:
-  name: JB
+- name: JB
   display_name: Jonathan Buckner
   avatar: https://s.gravatar.com/avatar/cf6d81e5e517d1665bee49edc37b9e7a?s=300.jpg
   permalink: author/jb/
-coop:
-  name: Coop
+- name: Coop
   display_name: Andrew Cooper
   avatar: https://s.gravatar.com/avatar/8a9a6cd0bafb16ecf61344203a81b615?s=300.jpg
   permalink: author/coop/
-justin:
-  name: Justin
+- name: Justin
   display_name: Justin Lacey
   avatar: https://s.gravatar.com/avatar/e96ee9daad57e5c8bdce606b12f0f97e?s=300.jpg
   permalink: author/justin/
-heather:
-  name: Heather
+- name: Heather
   display_name: Heather Ousley
   avatar: https://s.gravatar.com/avatar/7e0c14adf4853e68a97474cf80dafafd?s=300.jpg
   permalink: author/heather/
-jason:
-  name: Jason
+- name: Jason
   display_name: Jason Pitman
   avatar: https://s.gravatar.com/avatar/50588ee52f8c834bdd3c997bc53392cf?s=300.jpg
   permalink: author/jason/
-alex:
-  name: Alex
+- name: Alex
   display_name: Alex Porter
   avatar: https://s.gravatar.com/avatar/66acc29d510422688421bae87c69b3a3?s=300.jpg
   permalink: author/alex/
-kyle:
-  name: Kyle
+- name: Kyle
   display_name: Kyle Werner
   avatar: https://s.gravatar.com/avatar/8fb3464e807f98059679ed094b28f132?s=300.jpg
   permalink: author/kyle/

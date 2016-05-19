@@ -7436,7 +7436,7 @@ a {
     margin: 20px auto;
     width: 40%; }
   #jPanelMenu-menu .primer {
-    padding: 25px;
+    padding: 25px 25px 20px 25px;
     border-bottom: 1px solid #2f2f2f; }
     #jPanelMenu-menu .primer p {
       color: rgba(255, 255, 255, 0.75);
@@ -7445,7 +7445,7 @@ a {
       line-height: 1.45;
       font-size: 14px;
       font-size: 1.4rem;
-      margin-bottom: 0; }
+      margin-bottom: 8px; }
   #jPanelMenu-menu .social {
     padding: 20px; }
     #jPanelMenu-menu .social ul {

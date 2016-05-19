@@ -6,16 +6,13 @@ url: "http://curiositymotive.github.io" # the base hostname & protocol for your 
 enable_retina: true
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 nav_list:
-  Home : ['Home', '/', 'fa-home']
-  ##Home_Alt : ['Home Alt', '/home-alt', 'fa-home']
-  ##Home_Alt_2 : ['Home Alt 2', '/home-alt-2/', 'fa-home']
-  About : ['About', '/about', 'fa-anchor']
-  Contact : ['Contact', '/contact', 'fa-plane']
-  ##Author : ['Author', '/author/michelle', 'fa-user']
+  Home : ['Home', '/', 'fa-circle-o']
+  About : ['About', '/about', 'fa-circle-o']
+  Contact : ['Contact', '/contact', 'fa-circle-o']
 single_footer: '<p>&copy; 2016 Curiosity Motive</p>'
 footer_links:
-    About: ['About', '/about']
-    Writer: ['CM', '/about']
+  About: ['About', '/about']
+  Writer: ['CM', '/about']
 gems:
   - jekyll-gist
 permalink: /:title/
