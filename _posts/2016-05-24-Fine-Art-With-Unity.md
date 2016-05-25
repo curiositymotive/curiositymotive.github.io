@@ -2,7 +2,7 @@
 layout: post
 title:  "Creating Fine Art With The Unity Game Engine"
 subtitle: ""
-date: 2016-05-25 13:00:00
+date: 2016-05-25 12:30:00
 categories: problem_solvers
 author: alex
 show_avatar: true
