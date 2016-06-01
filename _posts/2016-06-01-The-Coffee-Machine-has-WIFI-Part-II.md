@@ -16,9 +16,6 @@ published: true
 ---
 
 [<< Read Part I](/the-coffee-machine-has-wifi/)
-[Read Part II >>](/the-coffee-machine-has-wifi-ii/)
-
-Fix URLS ^
 
 After taking some time off from this experiment, some co-workers brought it back up and pushed me to keep trying. My prior attempt at finding a user manual failed so this time I took detailed pictures of the inside components and tried to find further information on how it works. Also with this further investigation I noticed a compact flash card inserted at the bottom of the main circuit board.
 
