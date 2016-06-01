@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Coffee Machine has WIFI Part II"
-date: 2016-05-19 00:00:04
+date: 2016-06-01 13:00:04
 categories: hacking coffee r&d
 author: kyle
 show_avatar: true
@@ -12,11 +12,11 @@ blurb: "Digging deeper into the inside of the machine, the first thing I did was
 comments: true
 headerDark: true
 permalink: /the-coffee-machine-has-wifi-ii/
-published: false
+published: true
 ---
 
-[<< Read Part I](/The-Coffee-Machine-has-WIFI/)
-[Read Part II >>](/The-Coffee-Machine-has-WIFI-Part-II/)
+[<< Read Part I](/the-coffee-machine-has-wifi/)
+[Read Part II >>](/the-coffee-machine-has-wifi-ii/)
 
 Fix URLS ^
 
