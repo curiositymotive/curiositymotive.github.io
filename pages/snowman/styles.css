@@ -29,6 +29,10 @@ body {
 	}
 }
 
+blockquote p {
+	font-size:1em;
+}
+
 .content a {
 	color:#ffffff;
 }
@@ -64,6 +68,10 @@ body {
 	top:0;
 	left:0;
 	z-index: 9000;
+}
+
+.attribution {
+	text-align: right;
 }
 
 .cm_icon {
