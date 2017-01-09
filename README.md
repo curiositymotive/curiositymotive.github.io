@@ -20,7 +20,7 @@ This is the Jekyll site for Curiosity Motive.
 
 ### Writing / Launching Process
 
-1. Post draft in CM Google Drive  [articles folder](https://drive.google.com/drive/folders/0Bx4fGu2uhxjKNkttREpLYkhxdEk2). 
+1. Post draft in CM Google Drive  [articles folder](https://drive.google.com/drive/folders/0Bx4fGu2uhxjKNkttREpLYkhxdEk). 
 2. Add/Move Trello card on [Articles board](https://trello.com/b/fQaISZ6C/articles) to Ready For Review with link to post, and image selects.
 3. Try to get two reviews but one will suffice. (These are suggestions, your article is your own, no strict editorial approval here.)
 4. Once edits are made, build out the article in _posts in the project.
