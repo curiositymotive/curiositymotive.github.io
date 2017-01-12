@@ -9,7 +9,7 @@ nav_list:
   Home : ['Home', '/', 'fa-circle-o']
   About : ['About', '/about', 'fa-circle-o']
   Contact : ['Contact', '/contact', 'fa-circle-o']
-single_footer: '<p>&copy; 2016 Curiosity Motive</p>'
+single_footer: '<p>&copy; 2017 Curiosity Motive</p>'
 footer_links:
   About: ['About', '/about']
   Writer: ['CM', '/about']
