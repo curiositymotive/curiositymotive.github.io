@@ -9,7 +9,7 @@ show_avatar: true
 feature_image: /post-assets/announcing-11-hunter/11hunter_large
 show_related_posts: false
 square_related: /post-assets/announcing-11-hunter/11hunter_small
-blurb: "Feeling the holiday spirit while creating this tribute for the classic animation The Snowman, with WebVR and the A-Frame 3D framework"
+blurb: "Announcing an 80s arcade game to show our love for the Netflix show Stranger Things. 11 Hunter lets you take a ride with Mike and Eleven."
 comments: true
 headerDark: true
 permalink: /announcing-11-hunter/
