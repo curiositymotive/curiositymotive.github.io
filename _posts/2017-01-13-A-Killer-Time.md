@@ -16,7 +16,7 @@ permalink: /a-killer-time/
 published: true
 ---
 
-You are a zombie. You are looking for a ~~good~~ killer time. What else is there to do but tear your head off and see how high and for how long you can keep it soaring through the sky? **This is *A Killer Time*; a lifelong dream realized as a simple, challenging, and fun mobile game.**
+You are a zombie. You are looking for a ~~good~~ killer time. What else is there to do but tear your head off and see how high and for how long you can keep it soaring through the sky? **This is [*A Killer Time*](https://itunes.apple.com/us/app/a-killer-time/id1164554668?mt=8); a lifelong dream realized as a simple, challenging, and fun mobile game.**
 
 ## Inspired
 
