@@ -2,7 +2,7 @@
 layout: post
 title:  "A Killer Time"
 subtitle: "Realizing a dream through a simple, challenging, and fun mobile game."
-date: 2017-01-17 14:00:05
+date: 2017-01-18 10:00:00
 categories: games
 author: ryan
 show_avatar: true
