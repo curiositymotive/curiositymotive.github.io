@@ -2,7 +2,7 @@
 layout: post
 title:  "First Try: Blendid"
 subtitle: "A unique approach to Gulp front-end workflows"
-date: 2017-01-27 10:00:00
+date: 2017-01-30 10:00:00
 categories: r&d
 author: nate
 show_avatar: true
