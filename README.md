@@ -29,3 +29,13 @@ This is the Jekyll site for Curiosity Motive.
 7. Merge once checked with article live and post to #articles_status that it's live.
 8. Copy and fill out social template and generate twitter/facebook images for use. This all goes in the [social folder](https://drive.google.com/drive/folders/0B6-5oIW2CFGAcl8xdEtlcENkRkk) on drive.
 9. Current site organizer will try to get official social posts out in a timely fashion, as well as let people know to post on their own channels if it's of interest.
+
+### Using Docker
+
+If you need an environment to run Jekyll in, you can use the included `Dockerfile` and `docker-compose.yml` configuration to bootstrap a new environment that will build the site and make it available on the default port.
+
+1. Install Docker for Windows or Docker for Mac
+   > This configuration has only been tested with the new, Hyper-v based, Docker for Windows. It should work with the legacy Virtual Box version, but your mileage may vary
+   
+2. Run `docker-compose build` to build the environment
+3. Run `docker-compose up` to start the server
