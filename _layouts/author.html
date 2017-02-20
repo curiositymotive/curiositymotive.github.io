@@ -17,7 +17,7 @@ layout: with-sidebar
 <h2 class="favorites">Posts by {{ author.name }}</h2>
 
 <div class="posts-block animated fadeIn ">
-  {% for post in site.posts do %}
+  {% for post in site.posts %}
     {% if post.author == page.author %}
     <article class="post author-page">
         <div class="post-preview col-xs-12  no-gutter">
