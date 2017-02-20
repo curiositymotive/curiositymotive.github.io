@@ -4,7 +4,7 @@ services:
     build: .
     command: bash -c "gulp"
     volumes:
-      - .:/moriarty_proxy
+      - .:/curiositymotive
     ports:
       - 3000:3000
       - 3001:3001

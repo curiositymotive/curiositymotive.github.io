@@ -13,7 +13,7 @@ layout: with-sidebar
 
 <div class="category-page-posts animated fadeIn ">
 
-    {% for post in site.categories.[page.category] %}
+    {% for post in site.categories[page.category] %}
     {% assign author = site.data.authors[post.author] %}
 
     <article class="post">
