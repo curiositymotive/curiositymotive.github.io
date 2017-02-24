@@ -9,21 +9,21 @@ show_avatar: true
 feature_image: post-assets/announcing-stranger-things-tiger-edition/sttx_large
 show_related_posts: false
 square_related: post-assets/announcing-stranger-things-tiger-edition/sttx_small
-blurb: "We made a game based on the Netflix show Stranger Things that looks just like an old Tiger Electronics game with a design from Mike Donovan."
+blurb: "We made a game based on the Netflix show Stranger Things that looks just like an old Tiger Electronics game."
 comments: true
 headerDark: true
 permalink: /announcing-stranger-things-tiger-edition/
 published: true
 ---
 
-A few weeks ago my colleage [Nate](http://www.curiositymotive.com/author/nate/) posted this amazing game design image from UX Designer [Mike Donovan](http://mikedonovandesign.com) in our #spoilers_strangerthngs Slack channel (I’m not obsessed, you’re obsessed) and I nearly lost myself in it thinking through the possibilities of how to make it work. Could we build a real Tiger-style LCD handheld game? That would probably be ridiculously complicated (but still totally going to try it one of these days), but we could certainly build an [HTML5 version](https://curiositymotive.itch.io/stranger-things-tiger-edition)!
+A few weeks ago my colleage [Nate](http://www.curiositymotive.com/author/nate/) posted an amazing [game design image](http://mikedonovandesign.com/stranger-things-handheld-game/) from UX Designer [Mike Donovan](http://mikedonovandesign.com) that showed an incredibly realistic looking Tiger Electronics game based on Stranger Things. It was in our #spoilers_strangerthngs Slack channel (I’m not obsessed, you’re obsessed) and I nearly lost myself in it thinking through the possibilities of how to make it work. Could we build a real Tiger-style LCD handheld game? That would probably be ridiculously complicated (but still totally going to try it one of these days), but we could certainly build an [HTML5 version](https://curiositymotive.itch.io/stranger-things-tiger-edition)!
 
 
 <iframe frameborder="0" src="https://itch.io/embed/121912?linkback=true&amp;link_color=da1c5c" width="552" height="167"></iframe>
 <br />
 
 
-I got in touch with Mike that day and asked for his blessing to go ahead and turn his design into something playable. He was happy for me to do it and turned out to be really great to work with.
+I got in touch with Mike that day and asked for his blessing to go ahead and turn his design into something playable. He was happy for me to do it and was really great to work with.
 
 ## What to build it with?
 
@@ -32,7 +32,7 @@ Now I needed to figure out what game engine I wanted to use. I’d been using [U
 ## Not as easy as it looks
 In my head most of the gameplay I was looking to create was very simple. The player controls Eleven as she tries to rescue all the boys (Mike, Will, Lucas, and Dustin) from the normal world as well as the Upside Down. There are waffles for Eleven to eat, keys to access rooms, and even a government agent and the Demogorgon to avoid. The design is based on a grid and all kinds of game tools love grids. Then it hit me that a big part of this game was that the walls were boundaries between cells, not whole cells themselves, which immediately complicated things. Most grid-based algorithms assume that walls take up a full space in the grid. After wrapping my head around how to deal with that (creating cell objects that knew which boundaries they had) I needed an easy way to create those objects automatically, since there would be over 130 cells.
 
-<img class="post-img-full" title="Stranger Things Tiger Edition" src="/img/post-assets/announcing-stranger-things-tiger-edition/sttx.gif" alt="">
+<img class="" title="Stranger Things Tiger Edition" src="/img/post-assets/announcing-stranger-things-tiger-edition/sttx.gif" alt="">
 
 ## Creating a level format
 
@@ -51,4 +51,4 @@ To keep the game feeling realistically retro, on top of just the appropriate sou
 
 ## Back in the right-side up
 
-For me, this experience was all about designing within limitations, trying to mimic the feel of a certain game platform, and learning a new tool for game creation while coming out at the end with something that just feels right, from the art, to the music, to the gameplay. This was a fun project to work on, and starting out with such Mike’s beautiful design was fantastic inspiration to make something great. Go give it a play [here](https://curiositymotive.itch.io/stranger-things-tiger-edition) at let us know what you think!
+For me, this experience was all about designing within limitations, trying to mimic the feel of a certain game platform, and learning a new tool for game creation while coming out at the end with something that just feels right, from the art, to the music, to the gameplay. This was a fun project to work on, and starting out with such Mike’s beautiful design was fantastic inspiration to make something great. I really hope you enjoy playing and please let me know what you think! Also, don't forget to check out Mike who you can find on <a href="https://twitter.com/mikelikebike">Twitter</a> & <a href="https://dribbble.com/mikedonovan">Dribbble</a>.
