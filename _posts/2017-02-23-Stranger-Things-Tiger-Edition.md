@@ -16,7 +16,7 @@ permalink: /announcing-stranger-things-tiger-edition/
 published: true
 ---
 
-A few weeks ago my colleage [Nate](http://www.curiositymotive.com/author/nate/) posted an amazing [game design image](http://mikedonovandesign.com/stranger-things-handheld-game/) from UX Designer [Mike Donovan](http://mikedonovandesign.com) that showed an incredibly realistic looking Tiger Electronics game based on Stranger Things. It was in our #spoilers_strangerthngs Slack channel (I’m not obsessed, you’re obsessed) and I nearly lost myself in it thinking through the possibilities of how to make it work. Could we build a real Tiger-style LCD handheld game? That would probably be ridiculously complicated (but still totally going to try it one of these days), but we could certainly build an [HTML5 version](https://curiositymotive.itch.io/stranger-things-tiger-edition)!
+A few weeks ago my colleague [Nate](http://www.curiositymotive.com/author/nate/) posted an amazing [game design image](http://mikedonovandesign.com/stranger-things-handheld-game/) from UX Designer [Mike Donovan](http://mikedonovandesign.com) that showed an incredibly realistic looking Tiger Electronics game based on Stranger Things. It was in our #spoilers_strangerthngs Slack channel (I’m not obsessed, you’re obsessed) and I nearly lost myself in it thinking through the possibilities of how to make it work. Could we build a real Tiger-style LCD handheld game? That would probably be ridiculously complicated (but still totally going to try it one of these days), but we could certainly build an [HTML5 version](https://curiositymotive.itch.io/stranger-things-tiger-edition)!
 
 
 <iframe frameborder="0" src="https://itch.io/embed/121912?linkback=true&amp;link_color=da1c5c" width="552" height="167"></iframe>
