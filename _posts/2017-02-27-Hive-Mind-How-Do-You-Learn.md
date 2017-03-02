@@ -2,7 +2,7 @@
 layout: post
 title:  "Hive Mind - How Do You Learn? - Issue 2"
 subtitle: "How Do You Learn? - Issue 2"
-date: 2017-02-27 13:01:23
+date: 2017-03-02 17:15:23
 categories: journey
 author: cm
 show_avatar: true
