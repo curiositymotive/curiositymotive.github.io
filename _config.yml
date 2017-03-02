@@ -4,7 +4,7 @@ email: curiositymotive@gmail.com
 description: > # Curiosity Motive needs a description.
 url: "https://curiositymotive.github.io" # the base hostname & protocol for your site
 enable_retina: true
-exclude: ["node_modules", "gulpfile.js", "package.json"]
+exclude: ["node_modules", "gulpfile.js", "package.json", "Gemfile", "Gemfile.lock", "Dockerfile", "docker-compose.yml"]
 nav_list:
   Home : ['Home', '/', 'fa-circle-o']
   About : ['About', '/about', 'fa-circle-o']
