@@ -5,6 +5,7 @@ services:
     command: bash -c "gulp"
     volumes:
       - .:/curiositymotive
+      - /curiositymotive/node_modules
     ports:
       - 3000:3000
       - 3001:3001
